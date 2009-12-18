@@ -240,7 +240,7 @@ Templates may be defined at the end of the source file:
   %div.title Hello world!!!!!
 
 NOTE: In-file templates defined in the source file that requires sinatra
-are automatically loaded. Call the <tt>use_in_file_templates!</tt>
+are automatically loaded. Call the <tt>slurp_file_templates</tt>
 method explicitly if you have in-file templates in other source files.
 
 === Named Templates

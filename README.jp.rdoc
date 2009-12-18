@@ -235,7 +235,7 @@ see {Options and Configurations}[http://www.sinatrarb.com/configuration.html],
   %div.title Hello world!!!!!
 
 注意: sinatraをrequireするファイル内で定義されたファイル内テンプレートは自動的に読み込まれます。
-他のファイルで定義されているテンプレートを使うには <tt>use_in_file_templates!</tt>メソッドで指定します。
+他のファイルで定義されているテンプレートを使うには <tt>slurp_file_templates</tt>メソッドで指定します。
 
 === 名前付きテンプレート
 
